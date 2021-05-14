@@ -3,21 +3,24 @@ package exampletest;
 
 import java.util.Scanner;
 
-public class Num45 {
+public class Num48 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("n을 입력하시오 : ");
-		int a = sc.nextInt();
-		int b;
-		int c;
-
-		for (b = 0; a >= b; a--) {	
-			for (c = 0; c < a; c++) {
+		int n = sc.nextInt();
+		
+		
+		for(int i = 1 ;i<=n;i++) {
+			for(int a = 1; a<=n-i; a++) {
+				System.out.print(" ");
+			}
+			for(int a = 1; a<=2*i-1; a++) {
 				System.out.print("*");
 			}
 			System.out.println();
+			
 		}
 
 	}
