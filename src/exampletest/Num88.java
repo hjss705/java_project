@@ -34,4 +34,6 @@ public class Num88 {
 		         System.out.print("b 와 d 값이 일치합니다.");
 		      }
 		   }
+		   
+		   
 		}
